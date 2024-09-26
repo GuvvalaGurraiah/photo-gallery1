@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+header {
+    background-color: burlywood;
+    padding: 15px 0;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery-item {
+    flex: 1 1 calc(30% - 20px); /* 3 items per row with space */
+    margin: 10px;
+    background: red;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.gallery-item img {
+    width: 150px;
+    height: 100px;
+    display: block;
+    }
+
+
